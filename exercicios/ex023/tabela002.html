@@ -22,18 +22,22 @@
         }
 
         thead, tfoot {
-            background-color: darkgrey;
+            background-color:  dimgrey;
         }
 
         td.num {
             text-align: right;
         }
 
+        tbody > tr:nth-child(2n) {
+            background-color: darkgrey;
+        }
+
         caption {
             font-size: 1.5em ;
             font-weight: bold;
             padding: 10px;
-            background-color: dimgrey;
+            background-color: darkgrey ;
         }
     </style>
 </head>
@@ -41,7 +45,7 @@
     <table>
         <thead>
             <th>País</th>
-            <th>População</th>
+            <th style="width: 130px;">População</th>
             <th>Data</th>
         </thead>
         <tbody>
@@ -49,32 +53,32 @@
             <tr>
                 <td>China</td>
                 <td class="num">1 411 780 000</td>
-                <td>2021</td>
+                <td class="num">2021</td>
             </tr>
             <tr>
                 <td>Índia</td>
                 <td class="num">1 388 978 000</td>
-                <td>2021</td>
+                <td class="num">2021</td>
             </tr>
             <tr>
                 <td>Estados Unidos</td>
                 <td class="num">331 449 281	</td>
-                <td>2020</td>
+                <td class="num">2020</td>
             </tr>
             <tr>
                 <td>Indonésia</td>
                 <td class="num">273 523 615</td>
-                <td>2020</td>
+                <td class="num">2020</td>
             </tr>
             <tr>
                 <td>Paquistão</td>
                 <td class="num">220 892 340	</td>
-                <td>2020</td>
+                <td class="num">2020</td>
             </tr>
             <tr>
                 <td>Brasil</td>
                 <td class="num">213 317 639</td>
-                <td>2021</td>
+                <td class="num">2021</td>
             </tr>
         </tbody>
     </table>
